@@ -72,8 +72,8 @@ jobs:
         uses: ophub/amlogic-s9xxx-armbian@main
         with:
           armbian_path: ${{ env.ARMBIAN_URL }}
-          armbian_soc: s905x3_s905d
-          armbian_kernel: 5.15.25_5.4.180
+          armbian_soc: s905l3a-test
+          armbian_kernel: 5.15.25
 
       - name: Upload Armbian image to Release
         id: release
