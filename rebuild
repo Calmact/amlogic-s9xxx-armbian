@@ -257,10 +257,17 @@ confirm_version() {
         MAINLINE_UBOOT="x96max-u-boot.bin.sd.bin"
         ANDROID_UBOOT=""
         ;;
-	s905l3a)
+	s905l3abak)
         FDTFILE="meson-g12a-u200.dtb"
         UBOOT_OVERLOAD="u-boot-u200.bin"
         MAINLINE_UBOOT="u-boot-u200.bin.sd.bin"
+        ANDROID_UBOOT=""
+		AMLOGIC_SOC="s905l3a"
+        ;;	
+	s905l3a)
+        FDTFILE="meson-g12a-e900v22c.dtb"
+        UBOOT_OVERLOAD="e900v22c-u-boot"
+        MAINLINE_UBOOT="e900v22c-u-boot.bin.sd"
         ANDROID_UBOOT=""
 		AMLOGIC_SOC="s905l3a"
         ;;	
