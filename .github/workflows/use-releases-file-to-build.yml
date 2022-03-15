@@ -16,7 +16,9 @@ on:
       more_settings:
         description: "Rebuild: More parameter settings"
         required: false
-        default: "-b s905l3a -k 5.4.170_5.15.13"
+        default: "-b s905l3a_s905l3a-test -k 5.15.13"
+  schedule:
+    - cron: "0 17 * * 0"
 
 env:
   TZ: Asia/Shanghai
